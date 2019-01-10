@@ -1,0 +1,2638 @@
+body{
+	background-color:white;
+}
+#homebody{
+	background-color:black;
+}
+#winterbox{
+	float:left;
+	transform: translate(1%,0%);
+}
+#summerbox{
+	float:right;
+	transform: translate(0%,0%);
+}
+#autumnbox{
+	clear:left;
+	float:left;
+	transform:translate(1%,1%);
+}
+#springbox{
+	clear:right;
+	float:right;
+	transform: translate(0%,1%);
+}
+#logo{
+	height:100%;
+	width:100%;
+	position: absolute;
+	z-index:1;
+}
+.boxproperties{
+	background-color: yellow;
+	width:49.6%;
+	height:49.6%;
+	position:relative;
+}
+#snowflake{
+	width:60%;
+	height:110%;
+	transform: translate(27%,-7%);
+}
+#sun{
+	width:52%;
+	height:90%;
+	transform: translate(48%,5%);
+}
+#autumn{
+	width:40%;
+	height:90%;
+	transform:translate(65%,5%);
+}
+#daffodil{
+	width:40%;
+	height:95%;
+	transform: translate(75%,0%);
+}
+.overlay{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	height:100%;
+	opacity:0;
+	transition:.5s ease;
+}
+.boxproperties:hover .overlay{
+	opacity:1;
+}
+.image{
+	width:100%;
+	height:100%;
+}
+.Homettl{
+	margin:10px;
+	text-align:center;
+	font-family: "Segoe UI";
+	font-weight: 100;
+}
+.text_shadow{
+	font-size:250%;
+	color:white;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+#shadowproperties{
+	background:rgba(0,0,0,0.3);
+	width:99%;
+	height:25%;
+	transform:translate(0.5%,150%);
+	position: absolute;
+}
+#link{
+	text-decoration:none;
+	color:white;
+}
+#menulink{
+	text-decoration:none;
+	color:black;
+	display: none;
+}
+#winterheadermenu{
+	background: url('../assets/winter.jpg');
+	background-size:cover;
+	background-position: center;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+
+}
+#winterheadermenu h1{
+	margin-left:0.2%;
+	margin-top:2%;
+	width:100%;
+	height:60%;
+	background:rgba(0,0,0,0.3);
+	padding-bottom: 2%;
+}
+#summerheadermenu{
+	background: url('../assets/summer.jpg');
+	background-size:cover;
+	background-position: center;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+}
+#summerheadermenu h1{
+	margin-left:0.2%;
+	margin-top:5%;
+	width:100%;
+	height:60%;
+	background:rgba(0,0,0,0.3);
+	text-align: center;
+}
+#autumnheadermenu{
+	background: url('../assets/Autumn.jpg');
+	background-size:cover;
+	background-position: center;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+}
+#autumnheadermenu h1{
+	margin-left:0.2%;
+	margin-top:5%;
+	width:100%;
+	height:60%;
+	background:rgba(0,0,0,0.3);
+	text-align: center;
+}
+#springheadermenu{
+	background: url('../assets/Spring.jpg');
+	background-size:cover;
+	background-position: center;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+}
+#springheadermenu h1{
+	margin-left:0.2%;
+	margin-top:5%;
+	width:100%;
+	height:60%;
+	background:rgba(0,0,0,0.3);
+	text-align: center;
+}
+#blogheadermenu{
+	background: url('../assets/WomanTravel.jpg');
+	background-size:cover;
+	background-position: center;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 400px;
+}
+#blogheadermenu h1{
+	margin-left:0.2%;
+	margin-top:5%;
+	width:100%;
+	height:60%;
+	background:rgba(0,0,0,0.3);
+	text-align: center;
+}
+.blogheader{
+	padding-left: 3%;
+	margin-top: 11px;
+	margin-bottom: -27px;
+}
+#customiseheadermenu{
+	background: url('../assets/shoecustomiser.png');
+	background-size:cover;
+	background-position: center;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;	
+	background-size: 40%;
+}
+#customiseheadermenu h1{
+	width:100%;
+	height:79%;
+	/*background:rgba(0,0,0,0.3);*/
+	text-align: center;
+	margin:10px;
+	text-align:center;
+	font-family: "Segoe UI";
+	font-weight: 100;
+	font-size:1000%;
+	color:black;
+	position:absolute;
+	left:0px;
+	top:20px;
+}
+.videobuttons{
+	text-align:center;
+	padding-top: 63px;
+}
+#adventuresImg{
+	background: url('../assets/adventuresimg.jpg');
+	background-size: 100%;
+}
+#parisImg{
+	background: url('../assets/parkour in paris.jpg');
+	background-size: 100%;
+}
+.headertitle{
+	font-size:1000%;
+	color:white;
+	position:absolute;
+	left:0px;
+	top:0px;
+	margin-left: 37%;
+}
+#headertitleshadowproperties{
+	background:rgba(0,0,0,0.3);
+	width:99%;
+	height:45%;
+	position: absolute;
+	transform: translate(0.5%,-150%);
+}
+.menuholder{
+	overflow:unset;/*change this to hidden later*/
+	width:7%;
+	height:0%;
+	position:fixed;
+	z-index: 1;
+	transform: translate(3%,-5%);
+}
+.menuholder div{
+	z-index: 9999;
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 140px auto;
+	width: auto;
+    margin-bottom: -15px;
+    padding-left: 140px;
+    padding-top: 20px;
+}
+.menuholder span{
+	z-index: 9999;
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 100px auto;
+	width:auto;
+    display: block;/*change this on hover*/
+}
+
+div.firstmenu_item{
+	background-image: url('../assets/logo1.gif');
+	 height: 40px;
+	 margin-top: 10px;
+	 padding-top: 35px;
+}
+div.secondmenu_item{
+	background-image: url('../assets/logo2.gif');
+	height:20px;
+	padding-top: 5px;
+}
+div.thirdmenu_item{
+	background-image: url('../assets/logo3.gif');
+	height:80px;
+	padding-top: 35px;
+}
+.menuholder .spanhome {
+	background-image:url('../assets/top.png');
+	padding-left: 0px;
+	padding-right: 0px;
+	height:0px;
+	padding-top: 0px;
+	transition: padding-top 1s,padding-right 1s,padding-left 1s,height 1s;
+	position: absolute;
+	transform: translate(-31%,-49%);
+	transition-delay: 0s;
+}
+.menuholder .spanCustomise{
+	background-image:url('../assets/middle.png');
+	height:0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	transition: padding-top 1s,padding-right 1s,padding-left 1s,height 1s;
+	position:absolute;
+	transform: translate(-24%,-34%);
+}
+.menuholder .spanBlog{
+	background-image:url('../assets/bottom.png');
+	height:0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	transition: padding-top 1s,padding-right 1s,padding-left 1s,height 1s;
+	position:absolute;
+	transform:translate(-32%,-50%);
+}
+.menuholder:hover .spanhome{
+	padding-left: 38px;	
+	padding-right: 31px;
+	height:29px;
+	padding-top: 8px;
+}
+.menuholder:hover .spanBlog{
+	height:33px;
+	padding-left: 46px;
+	padding-right: 30px;
+}
+.menuholder:hover .spanCustomise{
+	height:19px;
+	padding-top: 5px;
+	padding-left: 28px;
+	padding-right: 12px;
+}
+.menuholder:hover #menulink{
+	display: block;
+}
+.outfitslink{
+width:94%;
+height:15%;
+position:relative;
+text-align: center;
+border:3px solid grey;
+color :black;
+margin-left:3%;
+background-color: white;
+}
+#seasonlinks{
+	color:black;
+	text-decoration: none;
+	font-size:250%;
+	font-family: "Segoe UI";
+	font-weight: 100;
+}
+.outfitslink:hover {
+
+border:10px solid grey;
+background-color: grey;
+}
+                                            /*WinterClothesMensTops*/
+#clothesfirstrow{
+    width:90%;
+    margin: 0 auto;
+    margin-top:75px;
+    height:300px;
+    /*border:1px solid black;*/
+}
+#clothessecondrow{
+	width:90%;
+    margin: 0 auto;
+    margin-top:75px;
+    height:300px;
+}
+.box{
+    height: 300px;
+    background-color: red;
+    border:1px solid #bdbdbd;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 10px #bdbdbd;
+    -webkit-box-shadow: 0 0 10px #bdbdbd;
+    box-shadow: 0 0 10px #bdbdbd;
+    padding-left: 20px;
+}
+											/*WinterClothesMensTops*/
+.wintertopmenBox1, .wintertopmenBox2, .wintertopmenBox3, .wintertopmenBox4, .wintertopmenBox5, .wintertopmenBox6 {
+    float:left;
+    width:30%;
+}
+.wintertopmenBox1, .wintertopmenBox2, .wintertopmenBox4, .wintertopmenBox5{
+padding-right: 59px;
+}
+
+.wintertopmenBox1 .box{
+	background-image:url('../assets/winter top man.jpg');
+	background-size: 350px;
+}
+.wintertopmenBox2 .box{
+	background-image:url('../assets/winter top man 2.jpg');
+	background-size: 350px;
+}
+.wintertopmenBox3 .box{
+	background-image:url('../assets/winter top man 3.jpg');
+	background-size: 350px;
+}
+.wintertopmenBox4 .box{
+	background-image:url('../assets/winter top man 4.jpg');
+	background-size: 350px;
+}
+.wintertopmenBox5 .box{
+	background-image:url('../assets/winter top man 5.jpg');
+	background-size: 350px;
+}
+.wintertopmenBox6 .box{
+	background-image:url('../assets/winter top man 6.jpg');
+	background-size: 350px;
+}
+											/*WinterClothesMensHoodies*/
+.winterhoodiemenBox1, .winterhoodiemenBox2, .winterhoodiemenBox3, .winterhoodiemenBox4, .winterhoodiemenBox5, .winterhoodiemenBox6 {
+    float:left;
+    width:30%;
+}
+.winterhoodiemenBox1, .winterhoodiemenBox2, .winterhoodiemenBox4, .winterhoodiemenBox5{
+padding-right: 59px;
+}
+.winterhoodiemenBox1 .box{
+	background-image:url('../assets/winter hoodies man 1.jpg');
+	background-size: 350px;
+}
+.winterhoodiemenBox2 .box{
+	background-image:url('../assets/winter hoodies man 2.jpg');
+	background-size: 350px;
+}
+.winterhoodiemenBox3 .box{
+	background-image:url('../assets/winter hoodies man 3.jpg');
+	background-size: 350px;
+}
+.winterhoodiemenBox4 .box{
+	background-image:url('../assets/winter hoodies man 4.jpg');
+	background-size: 350px;
+}
+.winterhoodiemenBox5 .box{
+	background-image:url('../assets/winter hoodies man 5.jpg');
+	background-size: 350px;
+}
+.winterhoodiemenBox6 .box{
+	background-image:url('../assets/winter hoodies man 6.jpg');
+	background-size: 350px;
+}
+											/*WinterClothesMensTrousers*/
+.wintertrousersmenBox1, .wintertrousersmenBox2, .wintertrousersmenBox3, .wintertrousersmenBox4, .wintertrousersmenBox5, .wintertrousersmenBox6 {
+    float:left;
+    width:30%;
+}
+.wintertrousersmenBox1, .wintertrousersmenBox2, .wintertrousersmenBox4, .wintertrousersmenBox5{
+padding-right: 59px;
+}
+.wintertrousersmenBox1 .box{
+	background-image:url('../assets/winter trousers men.jpg');
+	background-size: 350px;
+}
+.wintertrousersmenBox2 .box{
+	background-image:url('../assets/winter trousers men 2.jpg');
+	background-size: 350px;
+}
+.wintertrousersmenBox3 .box{
+	background-image:url('../assets/winter trousers men 3.jpg');
+	background-size: 350px;
+}
+.wintertrousersmenBox4 .box{
+	background-image:url('../assets/winter trousers men 4.jpg');
+	background-size: 350px;
+}
+.wintertrousersmenBox5 .box{
+	background-image:url('../assets/winter trousers men 5.jpg');
+	background-size: 350px;
+}
+.wintertrousersmenBox6 .box{
+	background-image:url('../assets/winter trousers men 6.jpg');
+	background-size: 350px;
+}
+											/*WinterClothesMensShorts*/
+.wintershortsmenBox1, .wintershortsmenBox2, .wintershortsmenBox3, .wintershortsmenBox4, .wintershortsmenBox5, .wintershortsmenBox6 {
+    float:left;
+    width:30%;
+}
+.wintershortsmenBox1, .wintershortsmenBox2, .wintershortsmenBox4, .wintershortsmenBox5{
+padding-right: 59px;
+}
+.wintershortsmenBox1 .box{
+	background-image:url('../assets/summer shorts man.jpg');
+	background-size: 350px;
+}
+.wintershortsmenBox2 .box{
+	background-image:url('../assets/summer shorts man 2.jpg');
+	background-size: 350px;
+}
+.wintershortsmenBox3 .box{
+	background-image:url('../assets/summer shorts man 3.jpg');
+	background-size: 350px;
+}
+.wintershortsmenBox4 .box{
+	background-image:url('../assets/summer shorts man 4.jpg');
+	background-size: 350px;
+}
+.wintershortsmenBox5 .box{
+	background-image:url('../assets/summer shorts man 5.jpg');
+	background-size: 350px;
+}
+.wintershortsmenBox6 .box{
+	background-image:url('../assets/summer shorts man 6.jpg');
+	background-size: 350px;
+}
+											/*WinterClothesMensTrainers*/
+.wintertrainersmenBox1, .wintertrainersmenBox2, .wintertrainersmenBox3, .wintertrainersmenBox4, .wintertrainersmenBox5, .wintertrainersmenBox6 {
+    float:left;
+    width:30%;
+}
+.wintertrainersmenBox1, .wintertrainersmenBox2, .wintertrainersmenBox4, .wintertrainersmenBox5{
+padding-right: 59px;
+}
+.wintertrainersmenBox1 .box{
+	background-image:url('../assets/winter trainers 1.jpg');
+	background-size: 350px;
+}
+.wintertrainersmenBox2 .box{
+	background-image:url('../assets/winter trainers 2.jpg');
+	background-size: 350px;
+}
+.wintertrainersmenBox3 .box{
+	background-image:url('../assets/winter trainers 3.jpg');
+	background-size: 350px;
+}
+.wintertrainersmenBox4 .box{
+	background-image:url('../assets/winter trainers 4.jpg');
+	background-size: 350px;
+}
+.wintertrainersmenBox5 .box{
+	background-image:url('../assets/winter trainers 5.jpg');
+	background-size: 390px;
+}
+.wintertrainersmenBox6 .box{
+	background-image:url('../assets/winter trainers 6.jpg');
+	background-size: 183px;
+}
+											/*SummerClothesMensTops*/	
+.summertopmenBox1, .summertopmenBox2, .summertopmenBox3, .summertopmenBox4, .summertopmenBox5, .summertopmenBox6 {
+    float:left;
+    width:30%;
+}
+.summertopmenBox1, .summertopmenBox2, .summertopmenBox4, .summertopmenBox5{
+padding-right: 59px;
+}
+.summertopmenBox1 .box{
+	background-image:url('../assets/summer top man 1.jpg');
+	background-size: 350px;
+}
+.summertopmenBox2 .box{
+	background-image:url('../assets/summer top man 2.jpg');
+	background-size: 350px;
+}
+.summertopmenBox3 .box{
+	background-image:url('../assets/summer top man 3.jpg');
+	background-size: 350px;
+}
+.summertopmenBox4 .box{
+	background-image:url('../assets/summer top man 4.jpg');
+	background-size: 350px;
+}
+.summertopmenBox5 .box{
+	background-image:url('../assets/summer top man 5.jpg');
+	background-size: 350px;
+}
+.summertopmenBox6 .box{
+	background-image:url('../assets/summer top man 6.jpg');
+	background-size: 350px;
+}
+											/*SummerClothesMensHoodies*/	
+.summerhoodiemenBox1, .summerhoodiemenBox2, .summerhoodiemenBox3, .summerhoodiemenBox4, .summerhoodiemenBox5, .summerhoodiemenBox6 {
+    float:left;
+    width:30%;
+}
+.summerhoodiemenBox1, .summerhoodiemenBox2, .summerhoodiemenBox4, .summerhoodiemenBox5{
+padding-right: 59px;
+}
+.summerhoodiemenBox1 .box{
+	background-image:url('../assets/summer hoodies man 1.jpg');
+	background-size: 350px;
+}
+.summerhoodiemenBox2 .box{
+	background-image:url('../assets/summer hoodies man 2.jpg');
+	background-size: 350px;
+}
+.summerhoodiemenBox3 .box{
+	background-image:url('../assets/summer hoodies man 3.jpg');
+	background-size: 350px;
+}
+.summerhoodiemenBox4 .box{
+	background-image:url('../assets/summer hoodies man 4.jpg');
+	background-size: 350px;
+}
+.summerhoodiemenBox5 .box{
+	background-image:url('../assets/summer hoodies man 5.jpg');
+	background-size: 350px;
+}
+.summerhoodiemenBox6 .box{
+	background-image:url('../assets/summer hoodies man 6.jpg');
+	background-size: 350px;
+}
+											/*SummerClothesMensTrousers*/	
+.summertrousersmenBox1, .summertrousersmenBox2, .summertrousersmenBox3, .summertrousersmenBox4, .summertrousersmenBox5, .summertrousersmenBox6 {
+    float:left;
+    width:30%;
+}
+.summertrousersmenBox1, .summertrousersmenBox2, .summertrousersmenBox4, .summertrousersmenBox5{
+padding-right: 59px;
+}
+.summertrousersmenBox1 .box{
+	background-image:url('../assets/winter trousers men.jpg');
+	background-size: 350px;
+}
+.summertrousersmenBox2 .box{
+	background-image:url('../assets/winter trousers men 2.jpg');
+	background-size: 350px;
+}
+.summertrousersmenBox3 .box{
+	background-image:url('../assets/winter trousers men 3.jpg');
+	background-size: 350px;
+}
+.summertrousersmenBox4 .box{
+	background-image:url('../assets/winter trousers men 4.jpg');
+	background-size: 350px;
+}
+.summertrousersmenBox5 .box{
+	background-image:url('../assets/winter trousers men 5.jpg');
+	background-size: 350px;
+}
+.summertrousersmenBox6 .box{
+	background-image:url('../assets/winter trousers men 6.jpg');
+	background-size: 350px;
+}
+											/*SummerClothesMensShorts*/	
+.summershortsmenBox1, .summershortsmenBox2, .summershortsmenBox3, .summershortsmenBox4, .summershortsmenBox5, .summershortsmenBox6 {
+    float:left;
+    width:30%;
+}
+.summershortsmenBox1, .summershortsmenBox2, .summershortsmenBox4, .summershortsmenBox5{
+padding-right: 59px;
+}
+.summershortsmenBox1 .box{
+	background-image:url('../assets/summer shorts man.jpg');
+	background-size: 350px;
+}
+.summershortsmenBox2 .box{
+	background-image:url('../assets/summer shorts man 2.jpg');
+	background-size: 350px;
+}
+.summershortsmenBox3 .box{
+	background-image:url('../assets/summer shorts man 3.jpg');
+	background-size: 350px;
+}
+.summershortsmenBox4 .box{
+	background-image:url('../assets/summer shorts man 4.jpg');
+	background-size: 350px;
+}
+.summershortsmenBox5 .box{
+	background-image:url('../assets/summer shorts man 5.jpg');
+	background-size: 350px;
+}
+.summershortsmenBox6 .box{
+	background-image:url('../assets/summer shorts man 6.jpg');
+	background-size: 350px;
+}
+											/*SummerClothesMensTrainers*/	
+.summertrainersmenBox1, .summertrainersmenBox2, .summertrainersmenBox3, .summertrainersmenBox4, .summertrainersmenBox5, .summertrainersmenBox6 {
+    float:left;
+    width:30%;
+}
+.summertrainersmenBox1, .summertrainersmenBox2, .summertrainersmenBox4, .summertrainersmenBox5{
+padding-right: 59px;
+}
+.summertrainersmenBox1 .box{
+	background-image:url('../assets/summer trainer 1.jpg');
+	background-size: 350px;
+}
+.summertrainersmenBox2 .box{
+	background-image:url('../assets/summer trainer 2.jpg');
+	background-size: 350px;
+}
+.summertrainersmenBox3 .box{
+	background-image:url('../assets/summer trainer 3.jpg');
+	background-size: 350px;
+}
+.summertrainersmenBox4 .box{
+	background-image:url('../assets/summer trainer 4.jpg');
+	background-size: 350px;
+}
+.summertrainersmenBox5 .box{
+	background-image:url('../assets/summer trainer 5.jpg');
+	background-size: 350px;
+}
+.summertrainersmenBox6 .box{
+	background-image:url('../assets/summer trainer 6.jpg');
+	background-size: 350px;
+}
+											/*AutumnClothesMensTops*/	
+.autumntopmenBox1, .autumntopmenBox2, .autumntopmenBox3, .autumntopmenBox4, .autumntopmenBox5, .autumntopmenBox6 {
+    float:left;
+    width:30%;
+}
+.autumntopmenBox1, .autumntopmenBox2, .autumntopmenBox4, .autumntopmenBox5{
+padding-right: 59px;
+}
+.autumntopmenBox1 .box{
+	background-image:url('../assets/autumn top man 1.jpg');
+	background-size: 350px;
+}
+.autumntopmenBox2 .box{
+	background-image:url('../assets/autumn top man 2.jpg');
+	background-size: 350px;
+}
+.autumntopmenBox3 .box{
+	background-image:url('../assets/autumn top man 3.jpg');
+	background-size: 350px;
+}
+.autumntopmenBox4 .box{
+	background-image:url('../assets/autumn top man 4.jpg');
+	background-size: 350px;
+}
+.autumntopmenBox5 .box{
+	background-image:url('../assets/autumn top man 5.jpg');
+	background-size: 450px;
+}
+.autumntopmenBox6 .box{
+	background-image:url('../assets/autumn top man 6.jpg');
+	background-size: 350px;
+}
+											/*AutumnClothesMensHoodies*/	
+.autumnhoodiemenBox1, .autumnhoodiemenBox2, .autumnhoodiemenBox3, .autumnhoodiemenBox4, .autumnhoodiemenBox5, .autumnhoodiemenBox6 {
+    float:left;
+    width:30%;
+}
+.autumnhoodiemenBox1, .autumnhoodiemenBox2, .autumnhoodiemenBox4, .autumnhoodiemenBox5{
+padding-right: 59px;
+}
+.autumnhoodiemenBox1 .box{
+	background-image:url('../assets/autumn hoodie man 1.jpg');
+	background-size: 350px;
+}
+.autumnhoodiemenBox2 .box{
+	background-image:url('../assets/autumn hoodie man 2.jpg');
+	background-size: 350px;
+}
+.autumnhoodiemenBox3 .box{
+	background-image:url('../assets/autumn hoodie man 3.jpg');
+	background-size: 350px;
+}
+.autumnhoodiemenBox4 .box{
+	background-image:url('../assets/autumn hoodie man 4.jpg');
+	background-size: 350px;
+}
+.autumnhoodiemenBox5 .box{
+	background-image:url('../assets/autumn hoodie man 5.jpg');
+	background-size: 350px;
+}
+.autumnhoodiemenBox6 .box{
+	background-image:url('../assets/autumn hoodie man 6.jpg');
+	background-size: 350px;
+}
+											/*AutumnClothesMensTrousers*/	
+.autumntrousersmenBox1, .autumntrousersmenBox2, .autumntrousersmenBox3, .autumntrousersmenBox4, .autumntrousersmenBox5, .autumntrousersmenBox6 {
+    float:left;
+    width:30%;
+}
+.autumntrousersmenBox1, .autumntrousersmenBox2, .autumntrousersmenBox4, .autumntrousersmenBox5{
+padding-right: 59px;
+}
+.autumntrousersmenBox1 .box{
+	background-image:url('../assets/winter trousers men.jpg');
+	background-size: 350px;
+}
+.autumntrousersmenBox2 .box{
+	background-image:url('../assets/winter trousers men 2.jpg');
+	background-size: 350px;
+}
+.autumntrousersmenBox3 .box{
+	background-image:url('../assets/winter trousers men 3.jpg');
+	background-size: 350px;
+}
+.autumntrousersmenBox4 .box{
+	background-image:url('../assets/winter trousers men 4.jpg');
+	background-size: 350px;
+}
+.autumntrousersmenBox5 .box{
+	background-image:url('../assets/winter trousers men 5.jpg');
+	background-size: 350px;
+}
+.autumntrousersmenBox6 .box{
+	background-image:url('../assets/winter trousers men 6.jpg');
+	background-size: 350px;
+}
+											/*AutumnClothesMensShorts*/	
+.autumnshortsmenBox1, .autumnshortsmenBox2, .autumnshortsmenBox3, .autumnshortsmenBox4, .autumnshortsmenBox5, .autumnshortsmenBox6 {
+    float:left;
+    width:30%;
+}
+.autumnshortsmenBox1, .autumnshortsmenBox2, .autumnshortsmenBox4, .autumnshortsmenBox5{
+padding-right: 59px;
+}
+.autumnshortsmenBox1 .box{
+	background-image:url('../assets/summer shorts man.jpg');
+	background-size: 350px;
+}
+.autumnshortsmenBox2 .box{
+	background-image:url('../assets/summer shorts man 2.jpg');
+	background-size: 350px;
+}
+.autumnshortsmenBox3 .box{
+	background-image:url('../assets/summer shorts man 3.jpg');
+	background-size: 350px;
+}
+.autumnshortsmenBox4 .box{
+	background-image:url('../assets/summer shorts man 4.jpg');
+	background-size: 350px;
+}
+.autumnshortsmenBox5 .box{
+	background-image:url('../assets/summer shorts man 5.jpg');
+	background-size: 350px;
+}
+.autumnshortsmenBox6 .box{
+	background-image:url('../assets/summer shorts man 6.jpg');
+	background-size: 350px;
+}
+											/*AutumnClothesMensTrainers*/	
+.autumntrainersmenBox1, .autumntrainersmenBox2, .autumntrainersmenBox3, .autumntrainersmenBox4, .autumntrainersmenBox5, .autumntrainersmenBox6 {
+    float:left;
+    width:30%;
+}
+.autumntrainersmenBox1, .autumntrainersmenBox2, .autumntrainersmenBox4, .autumntrainersmenBox5{
+padding-right: 59px;
+}
+.autumntrainersmenBox1 .box{
+	background-image:url('../assets/autumn trainers 1.jpg');
+	background-size: 350px;
+}
+.autumntrainersmenBox2 .box{
+	background-image:url('../assets/autumn trainers 2.jpg');
+	background-size: 350px;
+}
+.autumntrainersmenBox3 .box{
+	background-image:url('../assets/autumn trainers 3.jpg');
+	background-size: 330px;
+}
+.autumntrainersmenBox4 .box{
+	background-image:url('../assets/autumn trainers 4.jpg');
+	background-size: 350px;
+}
+.autumntrainersmenBox5 .box{
+	background-image:url('../assets/autumn trainers 5.jpg');
+	background-size: 350px;
+}
+.autumntrainersmenBox6 .box{
+	background-image:url('../assets/autumn trainers 6.jpg');
+	background-size: 350px;
+}
+											/*SpringClothesMensTops*/	
+.springtopmenBox1, .springtopmenBox2, .springtopmenBox3, .springtopmenBox4, .springtopmenBox5, .springtopmenBox6 {
+    float:left;
+    width:30%;
+}
+.springtopmenBox1, .springtopmenBox2, .springtopmenBox4, .springtopmenBox5{
+padding-right: 59px;
+}
+.springtopmenBox1 .box{
+	background-image:url('../assets/spring top man 1.jpg');
+	background-size: 350px;
+}
+.springtopmenBox2 .box{
+	background-image:url('../assets/spring top man 2.jpg');
+	background-size: 350px;
+}
+.springtopmenBox3 .box{
+	background-image:url('../assets/spring top man 3.jpeg');
+	background-size: 350px;
+}
+.springtopmenBox4 .box{
+	background-image:url('../assets/spring top man 4.jpg');
+	background-size: 350px;
+}
+.springtopmenBox5 .box{
+	background-image:url('../assets/spring top man 5.jpg');
+	background-size: 350px;
+}
+.springtopmenBox6 .box{
+	background-image:url('../assets/spring top man 6.jpg');
+	background-size: 350px;
+}
+											/*SpringClothesMensHoodies*/	
+.springhoodiemenBox1, .springhoodiemenBox2, .springhoodiemenBox3, .springhoodiemenBox4, .springhoodiemenBox5, .springhoodiemenBox6 {
+    float:left;
+    width:30%;
+}
+.springhoodiemenBox1, .springhoodiemenBox2, .springhoodiemenBox4, .springhoodiemenBox5{
+padding-right: 59px;
+}
+.springhoodiemenBox1 .box{
+	background-image:url('../assets/spring hoodie man 1.jpg');
+	background-size: 350px;
+}
+.springhoodiemenBox2 .box{
+	background-image:url('../assets/spring hoodie man 2.jpg');
+	background-size: 350px;
+}
+.springhoodiemenBox3 .box{
+	background-image:url('../assets/spring hoodie man 3.jpg');
+	background-size: 350px;
+}
+.springhoodiemenBox4 .box{
+	background-image:url('../assets/spring hoodie man 4.jpg');
+	background-size: 350px;
+}
+.springhoodiemenBox5 .box{
+	background-image:url('../assets/spring hoodie man 5.jpg');
+	background-size: 350px;
+}
+.springhoodiemenBox6 .box{
+	background-image:url('../assets/spring hoodie man 6.jpg');
+	background-size: 350px;
+}
+											/*SpringClothesMensTrousers*/	
+.springtrousersmenBox1, .springtrousersmenBox2, .springtrousersmenBox3, .springtrousersmenBox4, .springtrousersmenBox5, .springtrousersmenBox6 {
+    float:left;
+    width:30%;
+}
+.springtrousersmenBox1, .springtrousersmenBox2, .springtrousersmenBox4, .springtrousersmenBox5{
+padding-right: 59px;
+}
+.springtrousersmenBox1 .box{
+	background-image:url('../assets/winter trousers men.jpg');
+	background-size: 350px;
+}
+.springtrousersmenBox2 .box{
+	background-image:url('../assets/winter trousers men 2.jpg');
+	background-size: 350px;
+}
+.springtrousersmenBox3 .box{
+	background-image:url('../assets/winter trousers men 3.jpg');
+	background-size: 350px;
+}
+.springtrousersmenBox4 .box{
+	background-image:url('../assets/winter trousers men 4.jpg');
+	background-size: 350px;
+}
+.springtrousersmenBox5 .box{
+	background-image:url('../assets/winter trousers men 5.jpg');
+	background-size: 350px;
+}
+.springtrousersmenBox6 .box{
+	background-image:url('../assets/winter trousers men 6.jpg');
+	background-size: 350px;
+}
+											/*SpringClothesMensShorts*/	
+.springshortsmenBox1, .springshortsmenBox2, .springshortsmenBox3, .springshortsmenBox4, .springshortsmenBox5, .springshortsmenBox6 {
+    float:left;
+    width:30%;
+}
+.springshortsmenBox1, .springshortsmenBox2, .springshortsmenBox4, .springshortsmenBox5{
+padding-right: 59px;
+}
+.springshortsmenBox1 .box{
+	background-image:url('../assets/summer shorts man.jpg');
+	background-size: 350px;
+}
+.springshortsmenBox2 .box{
+	background-image:url('../assets/summer shorts man 2.jpg');
+	background-size: 350px;
+}
+.springshortsmenBox3 .box{
+	background-image:url('../assets/summer shorts man 3.jpg');
+	background-size: 350px;
+}
+.springshortsmenBox4 .box{
+	background-image:url('../assets/summer shorts man 4.jpg');
+	background-size: 350px;
+}
+.springshortsmenBox5 .box{
+	background-image:url('../assets/summer shorts man 5.jpg');
+	background-size: 350px;
+}
+.springshortsmenBox6 .box{
+	background-image:url('../assets/summer shorts man 6.jpg');
+	background-size: 350px;
+}
+											/*SpringClothesMensTrainers*/	
+.springtrainersmenBox1, .springtrainersmenBox2, .springtrainersmenBox3, .springtrainersmenBox4, .springtrainersmenBox5, .springtrainersmenBox6 {
+    float:left;
+    width:30%;
+}
+.springtrainersmenBox1, .springtrainersmenBox2, .springtrainersmenBox4, .springtrainersmenBox5{
+padding-right: 59px;
+}
+.springtrainersmenBox1 .box{
+	background-image:url('../assets/spring trainers 1.jpg');
+	background-size: 350px;
+}
+.springtrainersmenBox2 .box{
+	background-image:url('../assets/spring trainers 2.jpg');
+	background-size: 319px;
+}
+.springtrainersmenBox3 .box{
+	background-image:url('../assets/spring trainers 3.jpg');
+	background-size: 350px;
+}
+.springtrainersmenBox4 .box{
+	background-image:url('../assets/spring trainers 4.jpg');
+	background-size: 350px;
+}
+.springtrainersmenBox5 .box{
+	background-image:url('../assets/spring trainers 5.jpg');
+	background-size: 350px;
+}
+.springtrainersmenBox6 .box{
+	background-image:url('../assets/spring trainers 6.jpg');
+	background-size: 350px;
+}
+											/*WinterClothesWomensTops*/
+.wintertopwomenBox1, .wintertopwomenBox2, .wintertopwomenBox3, .wintertopwomenBox4, .wintertopwomenBox5, .wintertopwomenBox6 {
+    float:left;
+    width:30%;
+}
+.wintertopwomenBox1, .wintertopwomenBox2, .wintertopwomenBox4, .wintertopwomenBox5{
+padding-right: 59px;
+}
+
+.wintertopwomenBox1 .box{
+	background-image:url('../assets/womens tops 1.jpg');
+	background-size: 350px;
+}
+.wintertopwomenBox2 .box{
+	background-image:url('../assets/womens tops 2.jpg');
+	background-size: 350px;
+}
+.wintertopwomenBox3 .box{
+	background-image:url('../assets/womens tops 3.jpg');
+	background-size: 350px;
+}
+.wintertopwomenBox4 .box{
+	background-image:url('../assets/womens tops 4.jpg');
+	background-size: 350px;
+}
+.wintertopwomenBox5 .box{
+	background-image:url('../assets/womens tops 5.jpg');
+	background-size: 350px;
+}
+.wintertopwomenBox6 .box{
+	background-image:url('../assets/womens tops 6.jpg');
+	background-size: 350px;
+}
+											/*WinterClothesWomensHoodies*/
+.winterhoodiewomenBox1, .winterhoodiewomenBox2, .winterhoodiewomenBox3, .winterhoodiewomenBox4, .winterhoodiewomenBox5, .winterhoodiewomenBox6 {
+    float:left;
+    width:30%;
+}
+.winterhoodiewomenBox1, .winterhoodiewomenBox2, .winterhoodiewomenBox4, .winterhoodiewomenBox5{
+padding-right: 59px;
+}
+.winterhoodiewomenBox1 .box{
+	background-image:url('../assets/womens hoodies 1.jpg');
+	background-size: 350px;
+}
+.winterhoodiewomenBox2 .box{
+	background-image:url('../assets/womens hoodies 2.jpeg');
+	background-size: 350px;
+}
+.winterhoodiewomenBox3 .box{
+	background-image:url('../assets/womens hoodies 3.png');
+	background-size: 350px;
+}
+.winterhoodiewomenBox4 .box{
+	background-image:url('../assets/womens hoodies 4.jpg');
+	background-size: 350px;
+}
+.winterhoodiewomenBox5 .box{
+	background-image:url('../assets/womens hoodies 5.jpeg');
+	background-size: 350px;
+}
+.winterhoodiewomenBox6 .box{
+	background-image:url('../assets/womens hoodies 6.jpg');
+	background-size: 350px;
+}
+											/*WinterClothesWomensTrousers*/
+.wintertrouserswomenBox1, .wintertrouserswomenBox2, .wintertrouserswomenBox3, .wintertrouserswomenBox4, .wintertrouserswomenBox5, .wintertrouserswomenBox6 {
+    float:left;
+    width:30%;
+}
+.wintertrouserswomenBox1, .wintertrouserswomenBox2, .wintertrouserswomenBox4, .wintertrouserswomenBox5{
+padding-right: 59px;
+}
+.wintertrouserswomenBox1 .box{
+	background-image:url('../assets/womens trousers 1.jpg');
+	background-size: 350px;
+}
+.wintertrouserswomenBox2 .box{
+	background-image:url('../assets/womens trousers 2.jpg');
+	background-size: 350px;
+}
+.wintertrouserswomenBox3 .box{
+	background-image:url('../assets/womens trousers 3.jpg');
+	background-size: 350px;
+}
+.wintertrouserswomenBox4 .box{
+	background-image:url('../assets/womens trousers 4.jpg');
+	background-size: 350px;
+}
+.wintertrouserswomenBox5 .box{
+	background-image:url('../assets/womens trousers 5.jpg');
+	background-size: 350px;
+}
+.wintertrouserswomenBox6 .box{
+	background-image:url('../assets/womens trousers 6.jpg');
+	background-size: 350px;
+}
+											/*WinterClothesWomensShorts*/
+.wintershortswomenBox1, .wintershortswomenBox2, .wintershortswomenBox3, .wintershortswomenBox4, .wintershortswomenBox5, .wintershortswomenBox6 {
+    float:left;
+    width:30%;
+}
+.wintershortswomenBox1, .wintershortswomenBox2, .wintershortswomenBox4, .wintershortswomenBox5{
+padding-right: 59px;
+}
+.wintershortswomenBox1 .box{
+	background-image:url('../assets/womens shorts 1.jpg');
+	background-size: 350px;
+}
+.wintershortswomenBox2 .box{
+	background-image:url('../assets/womens shorts 2.jpg');
+	background-size: 350px;
+}
+.wintershortswomenBox3 .box{
+	background-image:url('../assets/womens shorts 3.jpg');
+	background-size: 350px;
+}
+.wintershortswomenBox4 .box{
+	background-image:url('../assets/womens shorts 4.jpg');
+	background-size: 350px;
+}
+.wintershortswomenBox5 .box{
+	background-image:url('../assets/womens shorts 5.jpg');
+	background-size: 350px;
+}
+.wintershortswomenBox6 .box{
+	background-image:url('../assets/womens shorts 6.jpg');
+	background-size: 350px;
+}
+											/*WinterClothesWomensTrainers*/
+.wintertrainerswomenBox1, .wintertrainerswomenBox2, .wintertrainerswomenBox3, .wintertrainerswomenBox4, .wintertrainerswomenBox5, .wintertrainerswomenBox6 {
+    float:left;
+    width:30%;
+}
+.wintertrainerswomenBox1, .wintertrainerswomenBox2, .wintertrainerswomenBox4, .wintertrainerswomenBox5{
+padding-right: 59px;
+}
+.wintertrainerswomenBox1 .box{
+	background-image:url('../assets/winter trainers 1.jpg');
+	background-size: 350px;
+}
+.wintertrainerswomenBox2 .box{
+	background-image:url('../assets/winter trainers 2.jpg');
+	background-size: 350px;
+}
+.wintertrainerswomenBox3 .box{
+	background-image:url('../assets/winter trainers 3.jpg');
+	background-size: 350px;
+}
+.wintertrainerswomenBox4 .box{
+	background-image:url('../assets/winter trainers 4.jpg');
+	background-size: 350px;
+}
+.wintertrainerswomenBox5 .box{
+	background-image:url('../assets/winter trainers 5.jpg');
+	background-size: 390px;
+}
+.wintertrainerswomenBox6 .box{
+	background-image:url('../assets/winter trainers 6.jpg');
+	background-size: 183px;
+}
+											/*SummerClothesWomensTops*/	
+.summertopwomenBox1, .summertopwomenBox2, .summertopwomenBox3, .summertopwomenBox4, .summertopwomenBox5, .summertopwomenBox6 {
+    float:left;
+    width:30%;
+}
+.summertopwomenBox1, .summertopwomenBox2, .summertopwomenBox4, .summertopwomenBox5{
+padding-right: 59px;
+}
+.summertopwomenBox1 .box{
+	background-image:url('../assets/womens tops 1.jpg');
+	background-size: 350px;
+}
+.summertopwomenBox2 .box{
+	background-image:url('../assets/womens tops 2.jpg');
+	background-size: 350px;
+}
+.summertopwomenBox3 .box{
+	background-image:url('../assets/womens tops 3.jpg');
+	background-size: 350px;
+}
+.summertopwomenBox4 .box{
+	background-image:url('../assets/womens tops 4.jpg');
+	background-size: 350px;
+}
+.summertopwomenBox5 .box{
+	background-image:url('../assets/womens tops 5.jpg');
+	background-size: 350px;
+}
+.summertopwomenBox6 .box{
+	background-image:url('../assets/womens tops 6.jpg');
+	background-size: 350px;
+}
+											/*SummerClothesWomensHoodies*/	
+.summerhoodiewomenBox1, .summerhoodiewomenBox2, .summerhoodiewomenBox3, .summerhoodiewomenBox4, .summerhoodiewomenBox5, .summerhoodiewomenBox6 {
+    float:left;
+    width:30%;
+}
+.summerhoodiewomenBox1, .summerhoodiemenBox2, .summerhoodiemenBox4, .summerhoodiemenBox5{
+padding-right: 59px;
+}
+.summerhoodiewomenBox1 .box{
+	background-image:url('../assets/womens hoodies 1.jpg');
+	background-size: 350px;
+}
+.summerhoodiewomenBox2 .box{
+	background-image:url('../assets/womens hoodies 2.jpeg');
+	background-size: 350px;
+}
+.summerhoodiewomenBox3 .box{
+	background-image:url('../assets/womens hoodies 3.png');
+	background-size: 350px;
+}
+.summerhoodiewomenBox4 .box{
+	background-image:url('../assets/womens hoodies 4.jpg');
+	background-size: 350px;
+}
+.summerhoodiewomenBox5 .box{
+	background-image:url('../assets/womens hoodies 5.jpeg');
+	background-size: 350px;
+}
+.summerhoodiewomenBox6 .box{
+	background-image:url('../assets/womens hoodies 6.jpg');
+	background-size: 350px;
+}
+											/*SummerClothesWomensTrousers*/	
+.summertrouserswomenBox1, .summertrouserswomenBox2, .summertrouserswomenBox3, .summertrouserswomenBox4, .summertrouserswomenBox5, .summertrouserswomenBox6 {
+    float:left;
+    width:30%;
+}
+.summertrouserswomenBox1, .summertrouserswomenBox2, .summertrouserswomenBox4, .summertrouserswomenBox5{
+padding-right: 59px;
+}
+.summertrouserswomenBox1 .box{
+	background-image:url('../assets/womens trousers 1.jpg');
+	background-size: 350px;
+}
+.summertrouserswomenBox2 .box{
+	background-image:url('../assets/womens trousers 2.jpg');
+	background-size: 350px;
+}
+.summertrouserswomenBox3 .box{
+	background-image:url('../assets/womens trousers 3.jpg');
+	background-size: 350px;
+}
+.summertrouserswomenBox4 .box{
+	background-image:url('../assets/womens trousers 4.jpg');
+	background-size: 350px;
+}
+.summertrouserswomenBox5 .box{
+	background-image:url('../assets/womens trousers 5.jpg');
+	background-size: 350px;
+}
+.summertrouserswomenBox6 .box{
+	background-image:url('../assets/womens trousers 6.jpg');
+	background-size: 350px;
+}
+											/*SummerClothesWomensShorts*/	
+.summershortswomenBox1, .summershortswomenBox2, .summershortswomenBox3, .summershortswomenBox4, .summershortswomenBox5, .summershortswomenBox6 {
+    float:left;
+    width:30%;
+}
+.summershortswomenBox1, .summershortswomenBox2, .summershortswomenBox4, .summershortswomenBox5{
+padding-right: 59px;
+}
+.summershortswomenBox1 .box{
+	background-image:url('../assets/womens shorts 1.jpg');
+	background-size: 350px;
+}
+.summershortswomenBox2 .box{
+	background-image:url('../assets/womens shorts 2.jpg');
+	background-size: 350px;
+}
+.summershortswomenBox3 .box{
+	background-image:url('../assets/womens shorts 3.jpg');
+	background-size: 350px;
+}
+.summershortswomenBox4 .box{
+	background-image:url('../assets/womens shorts 4.jpg');
+	background-size: 350px;
+}
+.summershortswomenBox5 .box{
+	background-image:url('../assets/womens shorts 5.jpg');
+	background-size: 350px;
+}
+.summershortswomenBox6 .box{
+	background-image:url('../assets/womens shorts 6.jpg');
+	background-size: 350px;
+}
+											/*SummerClothesWomensTrainers*/	
+.summertrainerswomenBox1, .summertrainerswomenBox2, .summertrainerswomenBox3, .summertrainerswomenBox4, .summertrainerswomenBox5, .summertrainerswomenBox6 {
+    float:left;
+    width:30%;
+}
+.summertrainerswomenBox1, .summertrainerswomenBox2, .summertrainerswomenBox4, .summertrainerswomenBox5{
+padding-right: 59px;
+}
+.summertrainerswomenBox1 .box{
+	background-image:url('../assets/summer trainer 1.jpg');
+	background-size: 350px;
+}
+.summertrainerswomenBox2 .box{
+	background-image:url('../assets/summer trainer 2.jpg');
+	background-size: 350px;
+}
+.summertrainerswomenBox3 .box{
+	background-image:url('../assets/summer trainer 3.jpg');
+	background-size: 350px;
+}
+.summertrainerswomenBox4 .box{
+	background-image:url('../assets/summer trainer 4.jpg');
+	background-size: 350px;
+}
+.summertrainerswomenBox5 .box{
+	background-image:url('../assets/summer trainer 5.jpg');
+	background-size: 350px;
+}
+.summertrainerswomenBox6 .box{
+	background-image:url('../assets/summer trainer 6.jpg');
+	background-size: 350px;
+}
+											/*AutumnClothesWomensTops*/	
+.autumntopwomenBox1, .autumntopwomenBox2, .autumntopwomenBox3, .autumntopwomenBox4, .autumntopwomenBox5, .autumntopwomenBox6 {
+    float:left;
+    width:30%;
+}
+.autumntopwomenBox1, .autumntopwomenBox2, .autumntopwomenBox4, .autumntopwomenBox5{
+padding-right: 59px;
+}
+.autumntopwomenBox1 .box{
+	background-image:url('../assets/womens tops 1.jpg');
+	background-size: 350px;
+}
+.autumntopwomenBox2 .box{
+	background-image:url('../assets/womens tops 2.jpg');
+	background-size: 350px;
+}
+.autumntopwomenBox3 .box{
+	background-image:url('../assets/womens tops 3.jpg');
+	background-size: 350px;
+}
+.autumntopwomenBox4 .box{
+	background-image:url('../assets/womens tops 4.jpg');
+	background-size: 350px;
+}
+.autumntopwomenBox5 .box{
+	background-image:url('../assets/womens tops 5.jpg');
+	background-size: 450px;
+}
+.autumntopwomenBox6 .box{
+	background-image:url('../assets/womens tops 6.jpg');
+	background-size: 350px;
+}
+											/*AutumnClothesWomensHoodies*/	
+.autumnhoodiewomenBox1, .autumnhoodiewomenBox2, .autumnhoodiewomenBox3, .autumnhoodiewomenBox4, .autumnhoodiewomenBox5, .autumnhoodiewomenBox6 {
+    float:left;
+    width:30%;
+}
+.autumnhoodiewomenBox1, .autumnhoodiewomenBox2, .autumnhoodiewomenBox4, .autumnhoodiewomenBox5{
+padding-right: 59px;
+}
+.autumnhoodiewomenBox1 .box{
+	background-image:url('../assets/womens hoodies 1.jpg');
+	background-size: 350px;
+}
+.autumnhoodiewomenBox2 .box{
+	background-image:url('../assets/womens hoodies 2.jpeg');
+	background-size: 350px;
+}
+.autumnhoodiewomenBox3 .box{
+	background-image:url('../assets/womens hoodies 3.png');
+	background-size: 350px;
+}
+.autumnhoodiewomenBox4 .box{
+	background-image:url('../assets/womens hoodies 4.jpg');
+	background-size: 350px;
+}
+.autumnhoodiewomenBox5 .box{
+	background-image:url('../assets/womens hoodies 5.jpeg');
+	background-size: 350px;
+}
+.autumnhoodiewomenBox6 .box{
+	background-image:url('../assets/womens hoodies 6.jpg');
+	background-size: 350px;
+}
+											/*AutumnClothesWomensTrousers*/	
+.autumntrouserswomenBox1, .autumntrouserswomenBox2, .autumntrouserswomenBox3, .autumntrouserswomenBox4, .autumntrouserswomenBox5, .autumntrouserswomenBox6 {
+    float:left;
+    width:30%;
+}
+.autumntrouserswomenBox1, .autumntrouserswomenBox2, .autumntrouserswomenBox4, .autumntrouserswomenBox5{
+padding-right: 59px;
+}
+.autumntrouserswomenBox1 .box{
+	background-image:url('../assets/womens trousers 1.jpg');
+	background-size: 350px;
+}
+.autumntrouserswomenBox2 .box{
+	background-image:url('../assets/womens trousers 2.jpg');
+	background-size: 350px;
+}
+.autumntrouserswomenBox3 .box{
+	background-image:url('../assets/womens trousers 3.jpg');
+	background-size: 350px;
+}
+.autumntrouserswomenBox4 .box{
+	background-image:url('../assets/womens trousers 4.jpg');
+	background-size: 350px;
+}
+.autumntrouserswomenBox5 .box{
+	background-image:url('../assets/womens trousers 5.jpg');
+	background-size: 350px;
+}
+.autumntrouserswomenBox6 .box{
+	background-image:url('../assets/womens trousers 6.jpg');
+	background-size: 350px;
+}
+											/*AutumnClothesWomensShorts*/	
+.autumnshortswomenBox1, .autumnshortswomenBox2, .autumnshortswomenBox3, .autumnshortswomenBox4, .autumnshortswomenBox5, .autumnshortswomenBox6 {
+    float:left;
+    width:30%;
+}
+.autumnshortswomenBox1, .autumnshortswomenBox2, .autumnshortswomenBox4, .autumnshortswomenBox5{
+padding-right: 59px;
+}
+.autumnshortswomenBox1 .box{
+	background-image:url('../assets/summer shorts man.jpg');
+	background-size: 350px;
+}
+.autumnshortswomenBox2 .box{
+	background-image:url('../assets/womens shorts 2.jpg');
+	background-size: 350px;
+}
+.autumnshortswomenBox3 .box{
+	background-image:url('../assets/womens shorts 3.jpg');
+	background-size: 350px;
+}
+.autumnshortswomenBox4 .box{
+	background-image:url('../assets/womens shorts 4.jpg');
+	background-size: 350px;
+}
+.autumnshortswomenBox5 .box{
+	background-image:url('../assets/womens shorts 5.jpg');
+	background-size: 350px;
+}
+.autumnshortswomenBox6 .box{
+	background-image:url('../assets/womens shorts 6.jpg');
+	background-size: 350px;
+}
+											/*AutumnClothesWomensTrainers*/	
+.autumntrainerswomenBox1, .autumntrainerswomenBox2, .autumntrainerswomenBox3, .autumntrainerswomenBox4, .autumntrainerswomenBox5, .autumntrainerswomenBox6 {
+    float:left;
+    width:30%;
+}
+.autumntrainerswomenBox1, .autumntrainerswomenBox2, .autumntrainerswomenBox4, .autumntrainerswomenBox5{
+padding-right: 59px;
+}
+.autumntrainerswomenBox1 .box{
+	background-image:url('../assets/autumn trainers 1.jpg');
+	background-size: 350px;
+}
+.autumntrainerswomenBox2 .box{
+	background-image:url('../assets/autumn trainers 2.jpg');
+	background-size: 350px;
+}
+.autumntrainerswomenBox3 .box{
+	background-image:url('../assets/autumn trainers 3.jpg');
+	background-size: 330px;
+}
+.autumntrainerswomenBox4 .box{
+	background-image:url('../assets/autumn trainers 4.jpg');
+	background-size: 350px;
+}
+.autumntrainerswomenBox5 .box{
+	background-image:url('../assets/autumn trainers 5.jpg');
+	background-size: 350px;
+}
+.autumntrainerswomenBox6 .box{
+	background-image:url('../assets/autumn trainers 6.jpg');
+	background-size: 350px;
+}
+											/*SpringClothesWomensTops*/	
+.springtopwomenBox1, .springtopwomenBox2, .springtopwomenBox3, .springtopwomenBox4, .springtopwomenBox5, .springtopwomenBox6 {
+    float:left;
+    width:30%;
+}
+.springtopwomenBox1, .springtopwomenBox2, .springtopwomenBox4, .springtopwomenBox5{
+padding-right: 59px;
+}
+.springtopwomenBox1 .box{
+	background-image:url('../assets/womens tops 1.jpg');
+	background-size: 350px;
+}
+.springtopwomenBox2 .box{
+	background-image:url('../assets/womens tops 2.jpg');
+	background-size: 350px;
+}
+.springtopwomenBox3 .box{
+	background-image:url('../assets/womens tops 3.jpg');
+	background-size: 350px;
+}
+.springtopwomenBox4 .box{
+	background-image:url('../assets/womens tops 4.jpg');
+	background-size: 350px;
+}
+.springtopwomenBox5 .box{
+	background-image:url('../assets/womens tops 5.jpg');
+	background-size: 350px;
+}
+.springtopwomenBox6 .box{
+	background-image:url('../assets/womens tops 6.jpg');
+	background-size: 350px;
+}
+											/*SpringClothesWomensHoodies*/	
+.springhoodiewomenBox1, .springhoodiewomenBox2, .springhoodiewomenBox3, .springhoodiewomenBox4, .springhoodiewomenBox5, .springhoodiewomenBox6 {
+    float:left;
+    width:30%;
+}
+.springhoodiewomenBox1, .springhoodiewomenBox2, .springhoodiewomenBox4, .springhoodiewomenBox5{
+padding-right: 59px;
+}
+.springhoodiewomenBox1 .box{
+	background-image:url('../assets/womens hoodies 1.jpg');
+	background-size: 350px;
+}
+.springhoodiewomenBox2 .box{
+	background-image:url('../assets/womens hoodies 2.jpeg');
+	background-size: 350px;
+}
+.springhoodiewomenBox3 .box{
+	background-image:url('../assets/womens hoodies 3.png');
+	background-size: 350px;
+}
+.springhoodiewomenBox4 .box{
+	background-image:url('../assets/womens hoodies 4.jpg');
+	background-size: 350px;
+}
+.springhoodiewomenBox5 .box{
+	background-image:url('../assets/womens hoodies 5.jpeg');
+	background-size: 350px;
+}
+.springhoodiewomenBox6 .box{
+	background-image:url('../assets/womens hoodies 6.jpg');
+	background-size: 350px;
+}
+											/*SpringClothesWomensTrousers*/	
+.springtrouserswomenBox1, .springtrouserswomenBox2, .springtrouserswomenBox3, .springtrouserswomenBox4, .springtrouserswomenBox5, .springtrouserswomenBox6 {
+    float:left;
+    width:30%;
+}
+.springtrouserswomenBox1, .springtrouserswomenBox2, .springtrouserswomenBox4, .springtrouserswomenBox5{
+padding-right: 59px;
+}
+.springtrouserswomenBox1 .box{
+	background-image:url('../assets/womens trousers 1.jpg');
+	background-size: 350px;
+}
+.springtrouserswomenBox2 .box{
+	background-image:url('../assets/womens trousers 2.jpg');
+	background-size: 350px;
+}
+.springtrouserswomenBox3 .box{
+	background-image:url('../assets/womens trousers 3.jpg');
+	background-size: 350px;
+}
+.springtrouserswomenBox4 .box{
+	background-image:url('../assets/womens trousers 4.jpg');
+	background-size: 350px;
+}
+.springtrouserswomenBox5 .box{
+	background-image:url('../assets/womens trousers 5.jpg');
+	background-size: 350px;
+}
+.springtrouserswomenBox6 .box{
+	background-image:url('../assets/womens trousers 6.jpg');
+	background-size: 350px;
+}
+											/*SpringClothesWomensShorts*/	
+.springshortswomenBox1, .springshortswomenBox2, .springshortswomenBox3, .springshortswomenBox4, .springshortswomenBox5, .springshortswomenBox6 {
+    float:left;
+    width:30%;
+}
+.springshortswomenBox1, .springshortswomenBox2, .springshortswomenBox4, .springshortswomenBox5{
+padding-right: 59px;
+}
+.springshortswomenBox1 .box{
+	background-image:url('../assets/womens shorts 1.jpg');
+	background-size: 350px;
+}
+.springshortswomenBox2 .box{
+	background-image:url('../assets/womens shorts 2.jpg');
+	background-size: 350px;
+}
+.springshortswomenBox3 .box{
+	background-image:url('../assets/womens shorts 3.jpg');
+	background-size: 350px;
+}
+.springshortswomenBox4 .box{
+	background-image:url('../assets/womens shorts 4.jpg');
+	background-size: 350px;
+}
+.springshortswomenBox5 .box{
+	background-image:url('../assets/womens shorts 5.jpg');
+	background-size: 350px;
+}
+.springshortswomenBox6 .box{
+	background-image:url('../assets/womens shorts 6.jpg');
+	background-size: 350px;
+}
+											/*SpringClothesWomensTrainers*/	
+.springtrainerswomenBox1, .springtrainerswomenBox2, .springtrainerswomenBox3, .springtrainerswomenBox4, .springtrainerswomenBox5, .springtrainerswomenBox6 {
+    float:left;
+    width:30%;
+}
+.springtrainerswomenBox1, .springtrainerswomenBox2, .springtrainerswomenBox4, .springtrainerswomenBox5{
+padding-right: 59px;
+}
+.springtrainerswomenBox1 .box{
+	background-image:url('../assets/spring trainers 1.jpg');
+	background-size: 350px;
+}
+.springtrainerswomenBox2 .box{
+	background-image:url('../assets/spring trainers 2.jpg');
+	background-size: 319px;
+}
+.springtrainerswomenBox3 .box{
+	background-image:url('../assets/spring trainers 3.jpg');
+	background-size: 350px;
+}
+.springtrainerswomenBox4 .box{
+	background-image:url('../assets/spring trainers 4.jpg');
+	background-size: 350px;
+}
+.springtrainerswomenBox5 .box{
+	background-image:url('../assets/spring trainers 5.jpg');
+	background-size: 350px;
+}
+.springtrainerswomenBox6 .box{
+	background-image:url('../assets/spring trainers 6.jpg');
+	background-size: 350px;
+}
+											/*WinterClothesKidsTops*/
+.wintertopkidsBox1, .wintertopkidsBox2, .wintertopkidsBox3, .wintertopkidsBox4, .wintertopkidsBox5, .wintertopkidsBox6 {
+    float:left;
+    width:30%;
+}
+.wintertopkidsBox1, .wintertopkidsBox2, .wintertopkidsBox4, .wintertopkidsBox5{
+padding-right: 59px;
+}
+
+.wintertopkidsBox1 .box{
+	background-image:url('../assets/Kids top 1.jpg');
+	background-size: 350px;
+}
+.wintertopkidsBox2 .box{
+	background-image:url('../assets/Kids top 2.jpg');
+	background-size: 350px;
+}
+.wintertopkidsBox3 .box{
+	background-image:url('../assets/Kids top 3.jpg');
+	background-size: 350px;
+}
+.wintertopkidsBox4 .box{
+	background-image:url('../assets/Kids top 4.jpg');
+	background-size: 350px;
+}
+.wintertopkidsBox5 .box{
+	background-image:url('../assets/Kids top 5.jpg');
+	background-size: 350px;
+}
+.wintertopkidsBox6 .box{
+	background-image:url('../assets/Kids top 6.jpg');
+	background-size: 350px;
+}
+											/*WinterClothesKidsHoodies*/
+.winterhoodiekidsBox1, .winterhoodiekidsBox2, .winterhoodiekidsBox3, .winterhoodiekidsBox4, .winterhoodiekidsBox5, .winterhoodiekidsBox6 {
+    float:left;
+    width:30%;
+}
+.winterhoodiekidsBox1, .winterhoodiekidsBox2, .winterhoodiekidsBox4, .winterhoodiekidsBox5{
+padding-right: 59px;
+}
+.winterhoodiekidsBox1 .box{
+	background-image:url('../assets/kids hoodies 1.jpg');
+	background-size: 350px;
+}
+.winterhoodiekidsBox2 .box{
+	background-image:url('../assets/kids hoodies 2.jpg');
+	background-size: 350px;
+}
+.winterhoodiekidsBox3 .box{
+	background-image:url('../assets/kids hoodies 3.jpg');
+	background-size: 350px;
+}
+.winterhoodiekidsBox4 .box{
+	background-image:url('../assets/kids hoodies 4.jpg');
+	background-size: 350px;
+}
+.winterhoodiekidsBox5 .box{
+	background-image:url('../assets/kids hoodies 5.jpg');
+	background-size: 350px;
+}
+.winterhoodiekidsBox6 .box{
+	background-image:url('../assets/kids hoodies 6.jpg');
+	background-size: 350px;
+}
+											/*WinterClothesKidsTrousers*/
+.wintertrouserskidsBox1, .wintertrouserskidsBox2, .wintertrouserskidsBox3, .wintertrouserskidsBox4, .wintertrouserskidsBox5, .wintertrouserskidsBox6 {
+    float:left;
+    width:30%;
+}
+.wintertrouserskidsBox1, .wintertrouserskidsBox2, .wintertrouserskidsBox4, .wintertrouserskidsBox5{
+padding-right: 59px;
+}
+.wintertrouserskidsBox1 .box{
+	background-image:url('../assets/kids trousers 1.jpg');
+	background-size: 350px;
+}
+.wintertrouserskidsBox2 .box{
+	background-image:url('../assets/kids trousers 2.jpg');
+	background-size: 350px;
+}
+.wintertrouserskidsBox3 .box{
+	background-image:url('../assets/kids trousers 3.jpg');
+	background-size: 350px;
+}
+.wintertrouserskidsBox4 .box{
+	background-image:url('../assets/kids trousers 4.jpg');
+	background-size: 350px;
+}
+.wintertrouserskidsBox5 .box{
+	background-image:url('../assets/kids trousers 5.jpg');
+	background-size: 350px;
+}
+.wintertrouserskidsBox6 .box{
+	background-image:url('../assets/kids trousers 6.jpg');
+	background-size: 350px;
+}
+											/*WinterClothesKidsShorts*/
+.wintershortskidsBox1, .wintershortskidsBox2, .wintershortskidsBox3, .wintershortskidsBox4, .wintershortskidsBox5, .wintershortskidsBox6 {
+    float:left;
+    width:30%;
+}
+.wintershortskidsBox1, .wintershortskidsBox2, .wintershortskidsBox4, .wintershortskidsBox5{
+padding-right: 59px;
+}
+.wintershortskidsBox1 .box{
+	background-image:url('../assets/kids shorts 1.jpg');
+	background-size: 350px;
+}
+.wintershortskidsBox2 .box{
+	background-image:url('../assets/kids shorts 2.jpg');
+	background-size: 350px;
+}
+.wintershortskidsBox3 .box{
+	background-image:url('../assets/kids shorts 3.jpg');
+	background-size: 350px;
+}
+.wintershortskidsBox4 .box{
+	background-image:url('../assets/kids shorts 4.jpg');
+	background-size: 350px;
+}
+.wintershortskidsBox5 .box{
+	background-image:url('../assets/kids shorts 5.jpg');
+	background-size: 350px;
+}
+.wintershortskidsBox6 .box{
+	background-image:url('../assets/kids shorts 6.jpg');
+	background-size: 350px;
+}
+											/*WinterClothesKidsTrainers*/
+.wintertrainerskidsBox1, .wintertrainerskidsBox2, .wintertrainerskidsBox3, .wintertrainerskidsBox4, .wintertrainerskidsBox5, .wintertrainerskidsBox6 {
+    float:left;
+    width:30%;
+}
+.wintertrainerskidsBox1, .wintertrainerskidsBox2, .wintertrainerskidsBox4, .wintertrainerskidsBox5{
+padding-right: 59px;
+}
+.wintertrainerskidsBox1 .box{
+	background-image:url('../assets/kids trainers 1.jpg');
+	background-size: 350px;
+}
+.wintertrainerskidsBox2 .box{
+	background-image:url('../assets/kids trainers 2.jpg');
+	background-size: 350px;
+}
+.wintertrainerskidsBox3 .box{
+	background-image:url('../assets/kids trainers 3.jpg');
+	background-size: 350px;
+}
+.wintertrainerskidsBox4 .box{
+	background-image:url('../assets/kids trainers 4.jpg');
+	background-size: 350px;
+}
+.wintertrainerskidsBox5 .box{
+	background-image:url('../assets/kids trainers 5.jpg');
+	background-size: 390px;
+}
+.wintertrainerskidsBox6 .box{
+	background-image:url('../assets/winter trainers 6.jpg');
+	background-size: 183px;
+}
+											/*SummerClothesKidsTops*/	
+.summertopkidsBox1, .summertopkidsBox2, .summertopkidsBox3, .summertopkidsBox4, .summertopkidsBox5, .summertopkidsBox6 {
+    float:left;
+    width:30%;
+}
+.summertopkidsBox1, .summertopkidsBox2, .summertopkidsBox4, .summertopkidsBox5{
+padding-right: 59px;
+}
+.summertopkidsBox1 .box{
+	background-image:url('../assets/kids top 1.jpg');
+	background-size: 350px;
+}
+.summertopkidsBox2 .box{
+	background-image:url('../assets/kids top 2.jpg');
+	background-size: 350px;
+}
+.summertopkidsBox3 .box{
+	background-image:url('../assets/kids top 3.jpg');
+	background-size: 350px;
+}
+.summertopkidsBox4 .box{
+	background-image:url('../assets/kids top 4.jpg');
+	background-size: 350px;
+}
+.summertopkidsBox5 .box{
+	background-image:url('../assets/kids top 5.jpg');
+	background-size: 350px;
+}
+.summertopkidsBox6 .box{
+	background-image:url('../assets/kids top 6.jpg');
+	background-size: 350px;
+}
+											/*SummerClothesKidsHoodies*/	
+.summerhoodiekidsBox1, .summerhoodiekidsBox2, .summerhoodiekidsBox3, .summerhoodiekidsBox4, .summerhoodiekidsBox5, .summerhoodiekidsBox6 {
+    float:left;
+    width:30%;
+}
+.summerhoodiekidsBox1, .summerhoodiekidsBox2, .summerhoodiekidsBox4, .summerhoodiekidsBox5{
+padding-right: 59px;
+}
+.summerhoodiekidsBox1 .box{
+	background-image:url('../assets/kids hoodies 1.jpg');
+	background-size: 350px;
+}
+.summerhoodiekidsBox2 .box{
+	background-image:url('../assets/kids hoodies 2.jpg');
+	background-size: 350px;
+}
+.summerhoodiekidsBox3 .box{
+	background-image:url('../assets/kids hoodies 3.jpg');
+	background-size: 350px;
+}
+.summerhoodiekidsBox4 .box{
+	background-image:url('../assets/kids hoodies 4.jpg');
+	background-size: 350px;
+}
+.summerhoodiekidsBox5 .box{
+	background-image:url('../assets/kids hoodies 5.jpg');
+	background-size: 350px;
+}
+.summerhoodiekidsBox6 .box{
+	background-image:url('../assets/kids hoodies 6.jpg');
+	background-size: 350px;
+}
+											/*SummerClothesKidsTrousers*/	
+.summertrouserskidsBox1, .summertrouserskidsBox2, .summertrouserskidsBox3, .summertrouserskidsBox4, .summertrouserskidsBox5, .summertrouserskidsBox6 {
+    float:left;
+    width:30%;
+}
+.summertrouserskidsBox1, .summertrouserskidsBox2, .summertrouserskidsBox4, .summertrouserskidsBox5{
+padding-right: 59px;
+}
+.summertrouserskidsBox1 .box{
+	background-image:url('../assets/kids trousers 1.jpg');
+	background-size: 350px;
+}
+.summertrouserskidsBox2 .box{
+	background-image:url('../assets/kids trousers 2.jpg');
+	background-size: 350px;
+}
+.summertrouserskidsBox3 .box{
+	background-image:url('../assets/kids trousers 3.jpg');
+	background-size: 350px;
+}
+.summertrouserskidsBox4 .box{
+	background-image:url('../assets/kids trousers 4.jpg');
+	background-size: 350px;
+}
+.summertrouserskidsBox5 .box{
+	background-image:url('../assets/kids trousers 5.jpg');
+	background-size: 350px;
+}
+.summertrouserskidsBox6 .box{
+	background-image:url('../assets/kids trousers 6.jpg');
+	background-size: 350px;
+}
+											/*SummerClothesKidsShorts*/	
+.summershortskidsBox1, .summershortskidsBox2, .summershortskidsBox3, .summershortskidsBox4, .summershortskidsBox5, .summershortskidsBox6 {
+    float:left;
+    width:30%;
+}
+.summershortskidsBox1, .summershortskidsBox2, .summershortskidsBox4, .summershortskidsBox5{
+padding-right: 59px;
+}
+.summershortskidsBox1 .box{
+	background-image:url('../assets/kids shorts 1.jpg');
+	background-size: 350px;
+}
+.summershortskidsBox2 .box{
+	background-image:url('../assets/kids shorts 2.jpg');
+	background-size: 350px;
+}
+.summershortskidsBox3 .box{
+	background-image:url('../assets/kids shorts 3.jpg');
+	background-size: 350px;
+}
+.summershortskidsBox4 .box{
+	background-image:url('../assets/kids shorts 4.jpg');
+	background-size: 350px;
+}
+.summershortskidsBox5 .box{
+	background-image:url('../assets/kids shorts 5.jpg');
+	background-size: 350px;
+}
+.summershortskidsBox6 .box{
+	background-image:url('../assets/kids shorts 6.jpg');
+	background-size: 350px;
+}
+											/*SummerClothesKidsTrainers*/	
+.summertrainerskidsBox1, .summertrainerskidsBox2, .summertrainerskidsBox3, .summertrainerskidsBox4, .summertrainerskidsBox5, .summertrainerskidsBox6 {
+    float:left;
+    width:30%;
+}
+.summertrainerskidsBox1, .summertrainerskidsBox2, .summertrainerskidsBox4, .summertrainerskidsBox5{
+padding-right: 59px;
+}
+.summertrainerskidsBox1 .box{
+	background-image:url('../assets/kids trainers 1.jpg');
+	background-size: 350px;
+}
+.summertrainerskidsBox2 .box{
+	background-image:url('../assets/kids trainers 2.jpg');
+	background-size: 350px;
+}
+.summertrainerskidsBox3 .box{
+	background-image:url('../assets/kids trainers 3.jpg');
+	background-size: 350px;
+}
+.summertrainerskidsBox4 .box{
+	background-image:url('../assets/kids trainers 4.jpg');
+	background-size: 350px;
+}
+.summertrainerskidsBox5 .box{
+	background-image:url('../assets/kids trainers 5.jpg');
+	background-size: 350px;
+}
+.summertrainerskidsBox6 .box{
+	background-image:url('../assets/kids trainers 6.jpg');
+	background-size: 350px;
+}
+											/*AutumnClothesKidsTops*/	
+.autumntopkidsBox1, .autumntopkidsBox2, .autumntopkidsBox3, .autumntopkidsBox4, .autumntopkidsBox5, .autumntopkidsBox6 {
+    float:left;
+    width:30%;
+}
+.autumntopkidsBox1, .autumntopkidsBox2, .autumntopkidsBox4, .autumntopkidsBox5{
+padding-right: 59px;
+}
+.autumntopkidsBox1 .box{
+	background-image:url('../assets/kids top 1.jpg');
+	background-size: 350px;
+}
+.autumntopkidsBox2 .box{
+	background-image:url('../assets/kids top 2.jpg');
+	background-size: 350px;
+}
+.autumntopkidsBox3 .box{
+	background-image:url('../assets/kids top 3.jpg');
+	background-size: 350px;
+}
+.autumntopkidsBox4 .box{
+	background-image:url('../assets/kids top 4.jpg');
+	background-size: 350px;
+}
+.autumntopkidsBox5 .box{
+	background-image:url('../assets/kids top 5.jpg');
+	background-size: 450px;
+}
+.autumntopkidsBox6 .box{
+	background-image:url('../assets/kids top 6.jpg');
+	background-size: 350px;
+}
+											/*AutumnClothesKidsHoodies*/	
+.autumnhoodiekidsBox1, .autumnhoodiekidsBox2, .autumnhoodiekidsBox3, .autumnhoodiekidsBox4, .autumnhoodiekidsBox5, .autumnhoodiekidsBox6 {
+    float:left;
+    width:30%;
+}
+.autumnhoodiekidsBox1, .autumnhoodiekidsBox2, .autumnhoodiekidsBox4, .autumnhoodiekidsBox5{
+padding-right: 59px;
+}
+.autumnhoodiekidsBox1 .box{
+	background-image:url('../assets/kids hoodies 1.jpg');
+	background-size: 350px;
+}
+.autumnhoodiekidsBox2 .box{
+	background-image:url('../assets/kids hoodies 2.jpg');
+	background-size: 350px;
+}
+.autumnhoodiekidsBox3 .box{
+	background-image:url('../assets/kids hoodies 3.jpg');
+	background-size: 350px;
+}
+.autumnhoodiekidsBox4 .box{
+	background-image:url('../assets/kids hoodies 4.jpg');
+	background-size: 350px;
+}
+.autumnhoodiekidsBox5 .box{
+	background-image:url('../assets/kids hoodies 5.jpg');
+	background-size: 350px;
+}
+.autumnhoodiekidsBox6 .box{
+	background-image:url('../assets/kids hoodies 6.jpg');
+	background-size: 350px;
+}
+											/*AutumnClothesKidsTrousers*/	
+.autumntrouserskidsBox1, .autumntrouserskidsBox2, .autumntrouserskidsBox3, .autumntrouserskidsBox4, .autumntrouserskidsBox5, .autumntrouserskidsBox6 {
+    float:left;
+    width:30%;
+}
+.autumntrouserskidsBox1, .autumntrouserskidsBox2, .autumntrouserskidsBox4, .autumntrouserskidsBox5{
+padding-right: 59px;
+}
+.autumntrouserskidsBox1 .box{
+	background-image:url('../assets/kids trousers 1.jpg');
+	background-size: 350px;
+}
+.autumntrouserskidsBox2 .box{
+	background-image:url('../assets/kids trousers 2.jpg');
+	background-size: 350px;
+}
+.autumntrouserskidsBox3 .box{
+	background-image:url('../assets/kids trousers 3.jpg');
+	background-size: 350px;
+}
+.autumntrouserskidsBox4 .box{
+	background-image:url('../assets/kids trousers 4.jpg');
+	background-size: 350px;
+}
+.autumntrouserskidsBox5 .box{
+	background-image:url('../assets/kids trousers 5.jpg');
+	background-size: 350px;
+}
+.autumntrouserskidsBox6 .box{
+	background-image:url('../assets/kids trousers 6.jpg');
+	background-size: 350px;
+}
+											/*AutumnClothesKidsShorts*/	
+.autumnshortskidsBox1, .autumnshortskidsBox2, .autumnshortskidsBox3, .autumnshortskidsBox4, .autumnshortskidsBox5, .autumnshortskidsBox6 {
+    float:left;
+    width:30%;
+}
+.autumnshortskidsBox1, .autumnshortskidsBox2, .autumnshortskidsBox4, .autumnshortskidsBox5{
+padding-right: 59px;
+}
+.autumnshortskidsBox1 .box{
+	background-image:url('../assets/kids shorts 1.jpg');
+	background-size: 350px;
+}
+.autumnshortskidsBox2 .box{
+	background-image:url('../assets/kids shorts 2.jpg');
+	background-size: 350px;
+}
+.autumnshortskidsBox3 .box{
+	background-image:url('../assets/kids shorts 3.jpg');
+	background-size: 350px;
+}
+.autumnshortskidsBox4 .box{
+	background-image:url('../assets/kids shorts 4.jpg');
+	background-size: 350px;
+}
+.autumnshortskidsBox5 .box{
+	background-image:url('../assets/kids shorts 5.jpg');
+	background-size: 350px;
+}
+.autumnshortskidsBox6 .box{
+	background-image:url('../assets/kids shorts 6.jpg');
+	background-size: 350px;
+}
+											/*AutumnClothesKidsTrainers*/	
+.autumntrainerskidsBox1, .autumntrainerskidsBox2, .autumntrainerskidsBox3, .autumntrainerskidsBox4, .autumntrainerskidsBox5, .autumntrainerskidsBox6 {
+    float:left;
+    width:30%;
+}
+.autumntrainerskidsBox1, .autumntrainerskidsBox2, .autumntrainerskidsBox4, .autumntrainerskidsBox5{
+padding-right: 59px;
+}
+.autumntrainerskidsBox1 .box{
+	background-image:url('../assets/kids trainers 1.jpg');
+	background-size: 350px;
+}
+.autumntrainerskidsBox2 .box{
+	background-image:url('../assets/kids trainers 2.jpg');
+	background-size: 350px;
+}
+.autumntrainerskidsBox3 .box{
+	background-image:url('../assets/kids trainers 3.jpg');
+	background-size: 330px;
+}
+.autumntrainerskidsBox4 .box{
+	background-image:url('../assets/kids trainers 4.jpg');
+	background-size: 350px;
+}
+.autumntrainerskidsBox5 .box{
+	background-image:url('../assets/kids trainers 5.jpg');
+	background-size: 350px;
+}
+.autumntrainerskidsBox6 .box{
+	background-image:url('../assets/kids trainers 6.jpg');
+	background-size: 350px;
+}
+											/*SpringClothesKidsTops*/	
+.springtopkidsBox1, .springtopkidsBox2, .springtopkidsBox3, .springtopkidsBox4, .springtopkidsBox5, .springtopkidsBox6 {
+    float:left;
+    width:30%;
+}
+.springtopkidsBox1, .springtopkidsBox2, .springtopkidsBox4, .springtopkidsBox5{
+padding-right: 59px;
+}
+.springtopkidsBox1 .box{
+	background-image:url('../assets/kids top 1.jpg');
+	background-size: 350px;
+}
+.springtopkidsBox2 .box{
+	background-image:url('../assets/kids top 2.jpg');
+	background-size: 350px;
+}
+.springtopkidsBox3 .box{
+	background-image:url('../assets/kids top 3.jpg');
+	background-size: 350px;
+}
+.springtopkidsBox4 .box{
+	background-image:url('../assets/kids top 4.jpg');
+	background-size: 350px;
+}
+.springtopkidsBox5 .box{
+	background-image:url('../assets/kids top 5.jpg');
+	background-size: 350px;
+}
+.springtopkidsBox6 .box{
+	background-image:url('../assets/kids top 6.jpg');
+	background-size: 350px;
+}
+											/*SpringClothesKidsHoodies*/	
+.springhoodiekidsBox1, .springhoodiekidsBox2, .springhoodiekidsBox3, .springhoodiekidsBox4, .springhoodiekidsBox5, .springhoodiekidsBox6 {
+    float:left;
+    width:30%;
+}
+.springhoodiekidsBox1, .springhoodiekidsBox2, .springhoodiekidsBox4, .springhoodiekidsBox5{
+padding-right: 59px;
+}
+.springhoodiekidsBox1 .box{
+	background-image:url('../assets/kids hoodies 1.jpg');
+	background-size: 350px;
+}
+.springhoodiekidsBox2 .box{
+	background-image:url('../assets/kids hoodies 2.jpg');
+	background-size: 350px;
+}
+.springhoodiekidsBox3 .box{
+	background-image:url('../assets/kids hoodies 3.jpg');
+	background-size: 350px;
+}
+.springhoodiekidsBox4 .box{
+	background-image:url('../assets/kids hoodies 4.jpg');
+	background-size: 350px;
+}
+.springhoodiekidsBox5 .box{
+	background-image:url('../assets/kids hoodies 5.jpg');
+	background-size: 350px;
+}
+.springhoodiekidsBox6 .box{
+	background-image:url('../assets/kids hoodies 6.jpg');
+	background-size: 350px;
+}
+											/*SpringClothesKidsTrousers*/	
+.springtrouserskidsBox1, .springtrouserskidsBox2, .springtrouserskidsBox3, .springtrouserskidsBox4, .springtrouserskidsBox5, .springtrouserskidsBox6 {
+    float:left;
+    width:30%;
+}
+.springtrouserskidsBox1, .springtrouserskidsBox2, .springtrouserskidsBox4, .springtrouserskidsBox5{
+padding-right: 59px;
+}
+.springtrouserskidsBox1 .box{
+	background-image:url('../assets/kids trousers 1.jpg');
+	background-size: 350px;
+}
+.springtrouserskidsBox2 .box{
+	background-image:url('../assets/kids trousers 2.jpg');
+	background-size: 350px;
+}
+.springtrouserskidsBox3 .box{
+	background-image:url('../assets/kids trousers 3.jpg');
+	background-size: 350px;
+}
+.springtrouserskidsBox4 .box{
+	background-image:url('../assets/kids trousers 4.jpg');
+	background-size: 350px;
+}
+.springtrouserskidsBox5 .box{
+	background-image:url('../assets/kids trousers 5.jpg');
+	background-size: 350px;
+}
+.springtrouserskidsBox6 .box{
+	background-image:url('../assets/kids trousers 6.jpg');
+	background-size: 350px;
+}
+											/*SpringClothesKidsShorts*/	
+.springshortskidsBox1, .springshortskidsBox2, .springshortskidsBox3, .springshortskidsBox4, .springshortskidsBox5, .springshortskidsBox6 {
+    float:left;
+    width:30%;
+}
+.springshortskidsBox1, .springshortskidsBox2, .springshortskidsBox4, .springshortskidsBox5{
+padding-right: 59px;
+}
+.springshortskidsBox1 .box{
+	background-image:url('../assets/kids shorts 1.jpg');
+	background-size: 350px;
+}
+.springshortskidsBox2 .box{
+	background-image:url('../assets/kids shorts 2.jpg');
+	background-size: 350px;
+}
+.springshortskidsBox3 .box{
+	background-image:url('../assets/kids shorts 3.jpg');
+	background-size: 350px;
+}
+.springshortskidsBox4 .box{
+	background-image:url('../assets/kids shorts 4.jpg');
+	background-size: 350px;
+}
+.springshortskidsBox5 .box{
+	background-image:url('../assets/kids shorts 5.jpg');
+	background-size: 350px;
+}
+.springshortskidsBox6 .box{
+	background-image:url('../assets/kids shorts 6.jpg');
+	background-size: 350px;
+}
+											/*SpringClothesKidsTrainers*/	
+.springtrainerskidsBox1, .springtrainerskidsBox2, .springtrainerskidsBox3, .springtrainerskidsBox4, .springtrainerskidsBox5, .springtrainerskidsBox6 {
+    float:left;
+    width:30%;
+}
+.springtrainerskidsBox1, .springtrainerskidsBox2, .springtrainerskidsBox4, .springtrainerskidsBox5{
+padding-right: 59px;
+}
+.springtrainerskidsBox1 .box{
+	background-image:url('../assets/kids trainers 1.jpg');
+	background-size: 350px;
+}
+.springtrainerskidsBox2 .box{
+	background-image:url('../assets/kids trainers 2.jpg');
+	background-size: 319px;
+}
+.springtrainerskidsBox3 .box{
+	background-image:url('../assets/kids trainers 3.jpg');
+	background-size: 350px;
+}
+.springtrainerskidsBox4 .box{
+	background-image:url('../assets/kids trainers 4.jpg');
+	background-size: 350px;
+}
+.springtrainerskidsBox5 .box{
+	background-image:url('../assets/kids trainers 5.jpg');
+	background-size: 350px;
+}
+.springtrainerskidsBox6 .box{
+	background-image:url('../assets/kids trainers 6.jpg');
+	background-size: 350px;
+}
+											/*End of clothing code*/	
+#itemdiv{
+    width:100%;
+    margin: 0 auto;
+    margin-top:75px;
+    height:400px;
+    padding-left: 20px;	
+}
+.itemholder1{
+	width:37%;
+    margin: 0 auto;
+    height: 97%;
+    border:1px solid #bdbdbd;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 10px #bdbdbd;
+    -webkit-box-shadow: 0 0 10px #bdbdbd;
+    box-shadow: 0 0 10px #bdbdbd;
+    float:left;
+    background-image:url('../assets/Customisable shoes/greyfront.png');
+	background-size: 530px;
+}
+
+.itemcolour{
+    float:left;
+    height: 60px;
+    width:82px;
+    background-color: red;
+    border:1px solid #bdbdbd;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 10px #bdbdbd;
+    -webkit-box-shadow: 0 0 10px #bdbdbd;
+    box-shadow: 0 0 10px #bdbdbd;
+    padding-left: 20px;
+}
+ .itemholder2, .itemholder3, .itemholder4, .itemholder5, .itemholder6, .itemholder7, .itemholder8, .itemholder9, .itemholder10, .itemholder11, .itemholder12{
+ 	float:left;
+ 	padding-left: 20px;
+ }
+.secondrowsizes{
+padding-top: 70px;
+	width:100%;
+}
+.itemholder2 .itemcolour {
+	background-image:url('../assets/Customisable shoes/base.png');
+	background-size: 100px;
+}
+.itemholder3 .itemcolour{
+	background-image:url('../assets/Customisable shoes/heel.png');
+	background-size: 95px;	
+}
+.itemholder4 .itemcolour{
+	background-image:url('../assets/Customisable shoes/oversole.png');
+	background-size: 90px;
+}
+.itemholder5 .itemcolour{
+	background-image:url('../assets/Customisable shoes/lace.png');
+	background-size: 90px;
+}
+.itemholder2:hover .itemholder1{
+	background-image:url('../assets/bootswhite.jpg');
+}
+.itemdata{
+	height:50px;
+	width: 114px;
+    margin: 0 auto;
+    height: 60px;
+    border:1px solid #bdbdbd;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 10px #bdbdbd;
+    -webkit-box-shadow: 0 0 10px #bdbdbd;
+    box-shadow: 0 0 10px #bdbdbd;
+    float:left;
+}
+.itemsubtitle{
+	padding-left: 33%;
+	padding-top: 70px;
+	z-index:0;
+}
+.itemsubtitleQ{
+	margin-block-start:5px;
+	margin-block-end:5px;
+	float:left;
+}
+.Quantitydata{
+	width: 30px;
+    margin: 0 auto;
+    height: 20px;
+    border:1px solid #bdbdbd;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 10px #bdbdbd;
+    -webkit-box-shadow: 0 0 10px #bdbdbd;
+    box-shadow: 0 0 10px #bdbdbd;
+	float:left;
+	padding-left: 20px;
+}
+.itemdetail{
+display: inline-block;
+padding-top: 10px;
+padding-left: 20px;
+width:50%;
+}
+.pricetag{
+	margin-top: 29px;
+	margin-bottom: unset;
+}
+.pricebutton{
+	width: 300px;
+    margin: 0 auto;
+    height: 72px;
+    border:1px solid #bdbdbd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #bdbdbd;
+    float: left;
+    background-color:green;
+    padding-top: 5px;
+}
+#purchase{
+	font-size: 319%;
+	text-align: center;
+}
+#menubox{
+	margin-top: 70px
+}
+.itemcustomiser{
+	float:right;
+	position: absolute;
+	width:100px;
+	height:350px;
+    top: 62%;
+    left: 31%;
+    border:1px solid #bdbdbd;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 10px #bdbdbd;
+    -webkit-box-shadow: 0 0 10px #bdbdbd;
+    box-shadow: 0 0 10px #bdbdbd;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.itemcustomiser1, .itemcustomiser2, .itemcustomiser3, .itemcustomiser4{
+padding-left: 20px;
+background-color: none;
+width:75px;
+height:64px;
+margin-bottom: 26px;
+}
+#itempreview{
+	background-size: 530px;
+	padding-right: 1.5%
+}
+#shoestyle1{
+	background-size: 100px;
+}
+#shoestyle2{
+	background-size: 100px;
+}
+#shoestyle3{
+	background-size: 100px;
+}
+#shoestyle4{
+	background-size: 100px;
+}
+.customshoes{
+	width:90%;
+    margin: 0 auto;
+    margin-top:75px;
+    height:50%;
+    padding-left:82px;
+}
+.customshoe{
+	height: 100%;
+	width:21%;
+    border:1px solid #bdbdbd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #bdbdbd;
+    float:left;
+    margin-right: 50px;
+}
+#shoe1{
+    background-image:url('../assets/Customisable shoes/Custom1.png');
+	background-size: 360px;
+}
+#shoe2{
+    background-image:url('../assets/Customisable shoes/Custom2.png');
+	background-size: 360px;
+}
+#shoe3{
+    background-image:url('../assets/Customisable shoes/Custom3.png');
+	background-size: 360px;
+}
+#shoe4{
+    background-image:url('../assets/Customisable shoes/Custom4.png');
+	background-size: 360px;
+}
+
+.iframe{
+
+}
+/*/////////////////////////////////////////////////////////////Media queries///////////////////////////////////////////////////////////*/
+/*for extra small mobile phones*/
+@media only screen and (max-width:600px ){
+	.outfitslink{
+		height:15%;
+	}
+	.headertitle{
+		font-size:741%;
+	}
+	.menuholder div{
+		background-size: 78px auto;
+		margin-bottom:-31px;
+		padding-left:82px;
+	}
+	div.thirdmenu_item{
+		padding-top:15px;
+	}
+	div.firstmenu_item{
+		margin-top:-16px;
+	}
+	.menuholder span{
+		background-size: 65px auto;
+	}
+	.menuholder .spanhome{
+		transform: translate(-26%,-54%);
+	}
+	.menuholder:hover .spanhome{
+		padding-left: 25px;
+   		padding-right: 31px;
+    	height: 29px;
+    	padding-top: 20px;
+	}
+	.menuholder:hover .spanCustomise{
+		height:24px;
+		padding-left: 22px;
+		padding-top: 13px;
+	}
+	.menuholder:hover .spanBlog{
+		padding-left:30px;
+		padding-top:10;
+		height:23px;
+	}
+	.menuholder .spanBlog{
+		transform: translate(-32%,21%);
+	}
+	#menulink{
+		font-size: 9px;
+	}
+    	[class*="wintertopmenBox"] {
+    	padding-right: 40px;
+    	width:25%;
+    }
+        [class*="winterhoodiemenBox"] {
+    	padding-right: 43px;
+    	width:25%;
+    }
+        [class*="wintershortsmenBox"] {
+    	padding-right: 43px;
+    	width:25%;
+    }
+        [class*="wintertrainersmenBox"] {
+    	padding-right: 43px;
+    	width:25%;
+    }
+        [class*="wintertrousersmenBox"] {
+    	padding-right: 43px;
+    	width:25%;
+    }
+        [class*="wintertopwomenBox"] {
+    	padding-right: 43px;
+    	width:25%;
+    }    [class*="winterhoodiewomenBox"] {
+    	padding-right: 43px;
+    	width:25%;
+    }    [class*="wintershortswomenBox"] {
+    	padding-right: 43px;
+    	width:25%;
+    }    [class*="wintertrainerswomenBox"] {
+    	padding-right: 43px;
+    	width:25%;
+    }    [class*="wintertrouserswomenBox"] {
+    	padding-right: 43px;
+    	width:25%;
+    }    [class*="wintertopkidsBox"] {
+    	padding-right: 43px;
+    	width:25%;
+    }    [class*="winterhoodiekidsBox"] {
+    	padding-right: 43px;
+    	width:25%;
+    }    [class*="wintershortskidsBox"] {
+    	padding-right: 43px;
+    	width:25%;
+    }    [class*="wintertrouserskidsBox"] {
+    	padding-right: 43px;
+    	width:25%;
+    }    [class*="wintertrainerskidsBox"] {
+    	padding-right: 43px;
+    	width:25%;
+    }
+
+}
+@media only screen and (min-width: 600px) {
+		.outfitslink{
+		height:15%;
+	}
+}
+@media only screen and (min-width: 768px) {
+		.outfitslink{
+		height:15%;
+	}
+} 
+@media only screen and (min-width: 992px) {
+		.outfitslink{
+		height:15%;
+	}
+} 
+@media only screen and (min-width: 1200px) {
+		.outfitslink{
+		height:15%;
+	}
+}
